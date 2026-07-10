@@ -68,3 +68,34 @@ body {
 .nav-links a:hover {
     color: #2563eb;
 }
+/* hero section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), 
+                url('./assets/banner.jpg') center/cover;
+    height: 60vh;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 em {
+    font-style: italic;
+    color: #e2e8f0;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    color: #cbd5e1;
+}

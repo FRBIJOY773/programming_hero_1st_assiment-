@@ -122,7 +122,6 @@ body {
 .speakers-section {
     padding: 80px 5%;
     text-align: center;
-    background-color: #fff;
 }
 
 .speaker-grid {
@@ -175,7 +174,6 @@ body {
 .pricing-section {
     padding: 80px 5%;
     text-align: center;
-    background-color: #fafafa;
 }
 
 .pricing-grid {
@@ -259,4 +257,71 @@ body {
 
 .pricing-card.pro ul li {
     color: #e2e8f0;
+}
+/* blog Section (AI Challenge) */
+.blog-section {
+    padding: 80px 5%;
+    text-align: center;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 40px auto 0;
+}
+
+.blog-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-content {
+    padding: 25px;
+}
+
+.blog-date {
+    font-size: 0.8rem;
+    color: #888;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.blog-content h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #111;
+}
+
+.blog-content p {
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.read-more:hover {
+    text-decoration: underline;
 }

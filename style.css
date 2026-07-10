@@ -1,0 +1,70 @@
+/* General Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+}
+/* Typography & Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #2563eb;
+    color: #fff;
+    border: 2px solid #2563eb;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+}
+.btn-outline:hover {
+    background-color: #eff6ff;
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 1.2rem;
+    line-height: 1.1;
+    color: #0b1120;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #2563eb;
+}
